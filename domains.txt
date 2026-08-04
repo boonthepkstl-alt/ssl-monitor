@@ -1,6 +1,53 @@
 # รายชื่อ domain ที่ต้องการ monitor SSL certificate
 # 1 บรรทัด = 1 domain (ไม่ต้องมี https:// หรือ / ปิดท้าย)
 # บรรทัดที่ขึ้นต้นด้วย # คือ comment จะถูกข้าม
-
+# .APP
 app-konga.singerthai.app
-singerthai.co.th
+api.singerthai.app
+app-api.singerthai.app
+app-konga.singerthai.app
+bl.singerthai.app
+collection.singerthai.app
+edocument.singerthai.app
+e-tax.singerthai.app
+etax.singerthai.app
+info.singerthai.app
+media-service.singerthai.app
+payment.singerthai.app
+qr-payment2.singerthai.app
+qr-payment.singerthai.app
+scb-api.singerthai.app
+sgb-app.singerthai.app
+sgf-ez.singerthai.app
+sgs-rq.singerthai.app
+singercrm-back.singerthai.app
+singercrm-front.singerthai.app
+singercrmline-back.singerthai.app
+singercrmline-front.singerthai.app
+singercrmline-migrate-service.singerthai.app
+singerthai.app
+singer-tracking-api.singerthai.app
+singer-tracking-backoffice-api.singerthai.app
+singer-tracking-backoffice.singerthai.app
+stl-bl.singerthai.app
+stl-collection.singerthai.app
+store.singerthai.app
+jelite-service-hwfg.singerthai.app
+kon-config.singerthai.app
+kong-config.singerthai.app
+rpay-check.singerthai.app
+rpay.singerthai.app
+sgsrq.singerthai.app
+sgs.singerthai.app
+stg-collection.singerthai.app
+stl-collection-frontend.singerthai.app
+stl-commission-front.singerthai.app
+stl-dealer-mgn.singerthai.app
+stl-finance-portal.singerthai.app
+stl-meeting-room.singerthai.app
+stl-product-portal.singerthai.app
+stl-sale-org.singerthai.app
+stl-service.singerthai.app
+stl-srp-neo.singerthai.app
+subscribe-plus-front.singerthai.app
+telesale.singerthai.app
