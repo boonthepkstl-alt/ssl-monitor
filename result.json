@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T05:38:30.859261+00:00",
+  "generated_at": "2026-08-04T05:52:35.165564+00:00",
   "results": [
     {
       "host": "app-konga.singerthai.app",
@@ -13,15 +13,6 @@
         "commonName": "Sectigo Public Server Authentication CA DV R36"
       },
       "error": null
-    },
-    {
-      "host": "api.singerthai.app",
-      "valid": null,
-      "valid_from": null,
-      "valid_to": null,
-      "days_left": null,
-      "issuer": null,
-      "error": "timed out"
     },
     {
       "host": "app-api.singerthai.app",
@@ -50,15 +41,6 @@
       "error": null
     },
     {
-      "host": "bl.singerthai.app",
-      "valid": null,
-      "valid_from": null,
-      "valid_to": null,
-      "days_left": null,
-      "issuer": null,
-      "error": "timed out"
-    },
-    {
       "host": "collection.singerthai.app",
       "valid": true,
       "valid_from": "2025-08-26T00:00:00+00:00",
@@ -70,24 +52,6 @@
         "commonName": "Sectigo Public Server Authentication CA DV R36"
       },
       "error": null
-    },
-    {
-      "host": "edocument.singerthai.app",
-      "valid": null,
-      "valid_from": null,
-      "valid_to": null,
-      "days_left": null,
-      "issuer": null,
-      "error": "timed out"
-    },
-    {
-      "host": "e-tax.singerthai.app",
-      "valid": null,
-      "valid_from": null,
-      "valid_to": null,
-      "days_left": null,
-      "issuer": null,
-      "error": "timed out"
     },
     {
       "host": "etax.singerthai.app",
@@ -103,15 +67,6 @@
       "error": null
     },
     {
-      "host": "info.singerthai.app",
-      "valid": null,
-      "valid_from": null,
-      "valid_to": null,
-      "days_left": null,
-      "issuer": null,
-      "error": "[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)"
-    },
-    {
       "host": "media-service.singerthai.app",
       "valid": true,
       "valid_from": "2026-07-27T20:01:19+00:00",
@@ -123,15 +78,6 @@
         "commonName": "WE1"
       },
       "error": null
-    },
-    {
-      "host": "payment.singerthai.app",
-      "valid": null,
-      "valid_from": null,
-      "valid_to": null,
-      "days_left": null,
-      "issuer": null,
-      "error": "timed out"
     },
     {
       "host": "qr-payment2.singerthai.app",
@@ -184,15 +130,6 @@
         "commonName": "WE1"
       },
       "error": null
-    },
-    {
-      "host": "sgf-ez.singerthai.app",
-      "valid": null,
-      "valid_from": null,
-      "valid_to": null,
-      "days_left": null,
-      "issuer": null,
-      "error": "timed out"
     },
     {
       "host": "sgs-rq.singerthai.app",
@@ -362,15 +299,6 @@
         "commonName": "WE1"
       },
       "error": null
-    },
-    {
-      "host": "jelite-service-hwfg.singerthai.app",
-      "valid": null,
-      "valid_from": null,
-      "valid_to": null,
-      "days_left": null,
-      "issuer": null,
-      "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'jelite-service-hwfg.singerthai.app'. (_ssl.c:1010)"
     },
     {
       "host": "kon-config.singerthai.app",
