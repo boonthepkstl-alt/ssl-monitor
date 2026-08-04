@@ -1,0 +1,5 @@
+# รายชื่อ domain ที่ต้องการ monitor SSL certificate
+# 1 บรรทัด = 1 domain (ไม่ต้องมี https:// หรือ / ปิดท้าย)
+# บรรทัดที่ขึ้นต้นด้วย # คือ comment จะถูกข้าม
+
+app-konga.singerthai.app
