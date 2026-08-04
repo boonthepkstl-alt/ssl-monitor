@@ -7,7 +7,6 @@ app-api.singerthai.app
 app-konga.singerthai.app
 collection.singerthai.app
 etax.singerthai.app
-info.singerthai.app
 media-service.singerthai.app
 qr-payment2.singerthai.app
 qr-payment.singerthai.app
