@@ -3,4 +3,4 @@
 # บรรทัดที่ขึ้นต้นด้วย # คือ comment จะถูกข้าม
 
 app-konga.singerthai.app
-www.singerthai.co.th
+singerthai.co.th
