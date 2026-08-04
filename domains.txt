@@ -3,22 +3,16 @@
 # บรรทัดที่ขึ้นต้นด้วย # คือ comment จะถูกข้าม
 # .APP
 app-konga.singerthai.app
-api.singerthai.app
 app-api.singerthai.app
 app-konga.singerthai.app
-bl.singerthai.app
 collection.singerthai.app
-edocument.singerthai.app
-e-tax.singerthai.app
 etax.singerthai.app
 info.singerthai.app
 media-service.singerthai.app
-payment.singerthai.app
 qr-payment2.singerthai.app
 qr-payment.singerthai.app
 scb-api.singerthai.app
 sgb-app.singerthai.app
-sgf-ez.singerthai.app
 sgs-rq.singerthai.app
 singercrm-back.singerthai.app
 singercrm-front.singerthai.app
@@ -32,7 +26,6 @@ singer-tracking-backoffice.singerthai.app
 stl-bl.singerthai.app
 stl-collection.singerthai.app
 store.singerthai.app
-jelite-service-hwfg.singerthai.app
 kon-config.singerthai.app
 kong-config.singerthai.app
 rpay-check.singerthai.app
