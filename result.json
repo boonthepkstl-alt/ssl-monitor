@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T03:56:16.409657+00:00",
+  "generated_at": "2026-08-04T05:38:30.859261+00:00",
   "results": [
     {
       "host": "app-konga.singerthai.app",
@@ -15,15 +15,659 @@
       "error": null
     },
     {
-      "host": "www.singerthai.co.th",
+      "host": "api.singerthai.app",
+      "valid": null,
+      "valid_from": null,
+      "valid_to": null,
+      "days_left": null,
+      "issuer": null,
+      "error": "timed out"
+    },
+    {
+      "host": "app-api.singerthai.app",
       "valid": true,
-      "valid_from": "2026-07-01T00:00:00+00:00",
-      "valid_to": "2027-01-15T23:59:59+00:00",
-      "days_left": 164,
+      "valid_from": "2025-08-26T00:00:00+00:00",
+      "valid_to": "2026-09-02T23:59:59+00:00",
+      "days_left": 29,
       "issuer": {
         "countryName": "GB",
         "organizationName": "Sectigo Limited",
         "commonName": "Sectigo Public Server Authentication CA DV R36"
+      },
+      "error": null
+    },
+    {
+      "host": "app-konga.singerthai.app",
+      "valid": true,
+      "valid_from": "2025-08-26T00:00:00+00:00",
+      "valid_to": "2026-09-02T23:59:59+00:00",
+      "days_left": 29,
+      "issuer": {
+        "countryName": "GB",
+        "organizationName": "Sectigo Limited",
+        "commonName": "Sectigo Public Server Authentication CA DV R36"
+      },
+      "error": null
+    },
+    {
+      "host": "bl.singerthai.app",
+      "valid": null,
+      "valid_from": null,
+      "valid_to": null,
+      "days_left": null,
+      "issuer": null,
+      "error": "timed out"
+    },
+    {
+      "host": "collection.singerthai.app",
+      "valid": true,
+      "valid_from": "2025-08-26T00:00:00+00:00",
+      "valid_to": "2026-09-02T23:59:59+00:00",
+      "days_left": 29,
+      "issuer": {
+        "countryName": "GB",
+        "organizationName": "Sectigo Limited",
+        "commonName": "Sectigo Public Server Authentication CA DV R36"
+      },
+      "error": null
+    },
+    {
+      "host": "edocument.singerthai.app",
+      "valid": null,
+      "valid_from": null,
+      "valid_to": null,
+      "days_left": null,
+      "issuer": null,
+      "error": "timed out"
+    },
+    {
+      "host": "e-tax.singerthai.app",
+      "valid": null,
+      "valid_from": null,
+      "valid_to": null,
+      "days_left": null,
+      "issuer": null,
+      "error": "timed out"
+    },
+    {
+      "host": "etax.singerthai.app",
+      "valid": true,
+      "valid_from": "2026-07-27T20:01:19+00:00",
+      "valid_to": "2026-10-25T21:00:58+00:00",
+      "days_left": 82,
+      "issuer": {
+        "countryName": "US",
+        "organizationName": "Google Trust Services",
+        "commonName": "WE1"
+      },
+      "error": null
+    },
+    {
+      "host": "info.singerthai.app",
+      "valid": null,
+      "valid_from": null,
+      "valid_to": null,
+      "days_left": null,
+      "issuer": null,
+      "error": "[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)"
+    },
+    {
+      "host": "media-service.singerthai.app",
+      "valid": true,
+      "valid_from": "2026-07-27T20:01:19+00:00",
+      "valid_to": "2026-10-25T21:00:58+00:00",
+      "days_left": 82,
+      "issuer": {
+        "countryName": "US",
+        "organizationName": "Google Trust Services",
+        "commonName": "WE1"
+      },
+      "error": null
+    },
+    {
+      "host": "payment.singerthai.app",
+      "valid": null,
+      "valid_from": null,
+      "valid_to": null,
+      "days_left": null,
+      "issuer": null,
+      "error": "timed out"
+    },
+    {
+      "host": "qr-payment2.singerthai.app",
+      "valid": true,
+      "valid_from": "2026-07-27T20:01:19+00:00",
+      "valid_to": "2026-10-25T21:00:58+00:00",
+      "days_left": 82,
+      "issuer": {
+        "countryName": "US",
+        "organizationName": "Google Trust Services",
+        "commonName": "WE1"
+      },
+      "error": null
+    },
+    {
+      "host": "qr-payment.singerthai.app",
+      "valid": true,
+      "valid_from": "2026-07-27T20:01:19+00:00",
+      "valid_to": "2026-10-25T21:00:58+00:00",
+      "days_left": 82,
+      "issuer": {
+        "countryName": "US",
+        "organizationName": "Google Trust Services",
+        "commonName": "WE1"
+      },
+      "error": null
+    },
+    {
+      "host": "scb-api.singerthai.app",
+      "valid": true,
+      "valid_from": "2025-08-26T00:00:00+00:00",
+      "valid_to": "2026-09-02T23:59:59+00:00",
+      "days_left": 29,
+      "issuer": {
+        "countryName": "GB",
+        "organizationName": "Sectigo Limited",
+        "commonName": "Sectigo Public Server Authentication CA DV R36"
+      },
+      "error": null
+    },
+    {
+      "host": "sgb-app.singerthai.app",
+      "valid": true,
+      "valid_from": "2026-07-27T20:01:19+00:00",
+      "valid_to": "2026-10-25T21:00:58+00:00",
+      "days_left": 82,
+      "issuer": {
+        "countryName": "US",
+        "organizationName": "Google Trust Services",
+        "commonName": "WE1"
+      },
+      "error": null
+    },
+    {
+      "host": "sgf-ez.singerthai.app",
+      "valid": null,
+      "valid_from": null,
+      "valid_to": null,
+      "days_left": null,
+      "issuer": null,
+      "error": "timed out"
+    },
+    {
+      "host": "sgs-rq.singerthai.app",
+      "valid": true,
+      "valid_from": "2026-07-27T20:01:19+00:00",
+      "valid_to": "2026-10-25T21:00:58+00:00",
+      "days_left": 82,
+      "issuer": {
+        "countryName": "US",
+        "organizationName": "Google Trust Services",
+        "commonName": "WE1"
+      },
+      "error": null
+    },
+    {
+      "host": "singercrm-back.singerthai.app",
+      "valid": true,
+      "valid_from": "2025-08-26T00:00:00+00:00",
+      "valid_to": "2026-09-02T23:59:59+00:00",
+      "days_left": 29,
+      "issuer": {
+        "countryName": "GB",
+        "organizationName": "Sectigo Limited",
+        "commonName": "Sectigo Public Server Authentication CA DV R36"
+      },
+      "error": null
+    },
+    {
+      "host": "singercrm-front.singerthai.app",
+      "valid": true,
+      "valid_from": "2025-08-26T00:00:00+00:00",
+      "valid_to": "2026-09-02T23:59:59+00:00",
+      "days_left": 29,
+      "issuer": {
+        "countryName": "GB",
+        "organizationName": "Sectigo Limited",
+        "commonName": "Sectigo Public Server Authentication CA DV R36"
+      },
+      "error": null
+    },
+    {
+      "host": "singercrmline-back.singerthai.app",
+      "valid": true,
+      "valid_from": "2025-08-26T00:00:00+00:00",
+      "valid_to": "2026-09-02T23:59:59+00:00",
+      "days_left": 29,
+      "issuer": {
+        "countryName": "GB",
+        "organizationName": "Sectigo Limited",
+        "commonName": "Sectigo Public Server Authentication CA DV R36"
+      },
+      "error": null
+    },
+    {
+      "host": "singercrmline-front.singerthai.app",
+      "valid": true,
+      "valid_from": "2025-08-26T00:00:00+00:00",
+      "valid_to": "2026-09-02T23:59:59+00:00",
+      "days_left": 29,
+      "issuer": {
+        "countryName": "GB",
+        "organizationName": "Sectigo Limited",
+        "commonName": "Sectigo Public Server Authentication CA DV R36"
+      },
+      "error": null
+    },
+    {
+      "host": "singercrmline-migrate-service.singerthai.app",
+      "valid": true,
+      "valid_from": "2025-08-26T00:00:00+00:00",
+      "valid_to": "2026-09-02T23:59:59+00:00",
+      "days_left": 29,
+      "issuer": {
+        "countryName": "GB",
+        "organizationName": "Sectigo Limited",
+        "commonName": "Sectigo Public Server Authentication CA DV R36"
+      },
+      "error": null
+    },
+    {
+      "host": "singerthai.app",
+      "valid": true,
+      "valid_from": "2026-07-27T20:01:19+00:00",
+      "valid_to": "2026-10-25T21:00:58+00:00",
+      "days_left": 82,
+      "issuer": {
+        "countryName": "US",
+        "organizationName": "Google Trust Services",
+        "commonName": "WE1"
+      },
+      "error": null
+    },
+    {
+      "host": "singer-tracking-api.singerthai.app",
+      "valid": true,
+      "valid_from": "2025-08-26T00:00:00+00:00",
+      "valid_to": "2026-09-02T23:59:59+00:00",
+      "days_left": 29,
+      "issuer": {
+        "countryName": "GB",
+        "organizationName": "Sectigo Limited",
+        "commonName": "Sectigo Public Server Authentication CA DV R36"
+      },
+      "error": null
+    },
+    {
+      "host": "singer-tracking-backoffice-api.singerthai.app",
+      "valid": true,
+      "valid_from": "2025-08-26T00:00:00+00:00",
+      "valid_to": "2026-09-02T23:59:59+00:00",
+      "days_left": 29,
+      "issuer": {
+        "countryName": "GB",
+        "organizationName": "Sectigo Limited",
+        "commonName": "Sectigo Public Server Authentication CA DV R36"
+      },
+      "error": null
+    },
+    {
+      "host": "singer-tracking-backoffice.singerthai.app",
+      "valid": true,
+      "valid_from": "2025-08-26T00:00:00+00:00",
+      "valid_to": "2026-09-02T23:59:59+00:00",
+      "days_left": 29,
+      "issuer": {
+        "countryName": "GB",
+        "organizationName": "Sectigo Limited",
+        "commonName": "Sectigo Public Server Authentication CA DV R36"
+      },
+      "error": null
+    },
+    {
+      "host": "stl-bl.singerthai.app",
+      "valid": true,
+      "valid_from": "2026-07-27T20:01:19+00:00",
+      "valid_to": "2026-10-25T21:00:58+00:00",
+      "days_left": 82,
+      "issuer": {
+        "countryName": "US",
+        "organizationName": "Google Trust Services",
+        "commonName": "WE1"
+      },
+      "error": null
+    },
+    {
+      "host": "stl-collection.singerthai.app",
+      "valid": true,
+      "valid_from": "2026-07-27T20:01:19+00:00",
+      "valid_to": "2026-10-25T21:00:58+00:00",
+      "days_left": 82,
+      "issuer": {
+        "countryName": "US",
+        "organizationName": "Google Trust Services",
+        "commonName": "WE1"
+      },
+      "error": null
+    },
+    {
+      "host": "store.singerthai.app",
+      "valid": true,
+      "valid_from": "2026-07-27T20:01:19+00:00",
+      "valid_to": "2026-10-25T21:00:58+00:00",
+      "days_left": 82,
+      "issuer": {
+        "countryName": "US",
+        "organizationName": "Google Trust Services",
+        "commonName": "WE1"
+      },
+      "error": null
+    },
+    {
+      "host": "jelite-service-hwfg.singerthai.app",
+      "valid": null,
+      "valid_from": null,
+      "valid_to": null,
+      "days_left": null,
+      "issuer": null,
+      "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'jelite-service-hwfg.singerthai.app'. (_ssl.c:1010)"
+    },
+    {
+      "host": "kon-config.singerthai.app",
+      "valid": true,
+      "valid_from": "2026-06-30T06:26:44+00:00",
+      "valid_to": "2026-09-28T07:26:42+00:00",
+      "days_left": 55,
+      "issuer": {
+        "countryName": "US",
+        "organizationName": "Google Trust Services",
+        "commonName": "WE1"
+      },
+      "error": null
+    },
+    {
+      "host": "kong-config.singerthai.app",
+      "valid": true,
+      "valid_from": "2026-06-30T10:08:57+00:00",
+      "valid_to": "2026-09-28T11:08:50+00:00",
+      "days_left": 55,
+      "issuer": {
+        "countryName": "US",
+        "organizationName": "Google Trust Services",
+        "commonName": "WE1"
+      },
+      "error": null
+    },
+    {
+      "host": "rpay-check.singerthai.app",
+      "valid": true,
+      "valid_from": "2026-07-29T18:10:55+00:00",
+      "valid_to": "2026-10-27T19:10:47+00:00",
+      "days_left": 84,
+      "issuer": {
+        "countryName": "US",
+        "organizationName": "Google Trust Services",
+        "commonName": "WE1"
+      },
+      "error": null
+    },
+    {
+      "host": "rpay.singerthai.app",
+      "valid": true,
+      "valid_from": "2026-07-29T10:48:06+00:00",
+      "valid_to": "2026-10-27T11:47:59+00:00",
+      "days_left": 84,
+      "issuer": {
+        "countryName": "US",
+        "organizationName": "Google Trust Services",
+        "commonName": "WE1"
+      },
+      "error": null
+    },
+    {
+      "host": "sgsrq.singerthai.app",
+      "valid": true,
+      "valid_from": "2026-07-14T18:28:30+00:00",
+      "valid_to": "2026-10-12T19:28:28+00:00",
+      "days_left": 69,
+      "issuer": {
+        "countryName": "US",
+        "organizationName": "Google Trust Services",
+        "commonName": "WE1"
+      },
+      "error": null
+    },
+    {
+      "host": "sgs.singerthai.app",
+      "valid": true,
+      "valid_from": "2026-07-08T09:43:37+00:00",
+      "valid_to": "2026-10-06T10:43:28+00:00",
+      "days_left": 63,
+      "issuer": {
+        "countryName": "US",
+        "organizationName": "Google Trust Services",
+        "commonName": "WE1"
+      },
+      "error": null
+    },
+    {
+      "host": "stg-collection.singerthai.app",
+      "valid": true,
+      "valid_from": "2026-07-27T20:01:19+00:00",
+      "valid_to": "2026-10-25T21:00:58+00:00",
+      "days_left": 82,
+      "issuer": {
+        "countryName": "US",
+        "organizationName": "Google Trust Services",
+        "commonName": "WE1"
+      },
+      "error": null
+    },
+    {
+      "host": "stl-collection-frontend.singerthai.app",
+      "valid": true,
+      "valid_from": "2026-06-22T01:31:36+00:00",
+      "valid_to": "2026-09-20T02:31:26+00:00",
+      "days_left": 46,
+      "issuer": {
+        "countryName": "US",
+        "organizationName": "Google Trust Services",
+        "commonName": "WE1"
+      },
+      "error": null
+    },
+    {
+      "host": "stl-commission-front.singerthai.app",
+      "valid": true,
+      "valid_from": "2026-06-06T08:56:18+00:00",
+      "valid_to": "2026-09-04T09:56:04+00:00",
+      "days_left": 31,
+      "issuer": {
+        "countryName": "US",
+        "organizationName": "Google Trust Services",
+        "commonName": "WE1"
+      },
+      "error": null
+    },
+    {
+      "host": "stl-dealer-mgn.singerthai.app",
+      "valid": true,
+      "valid_from": "2026-06-15T08:15:06+00:00",
+      "valid_to": "2026-09-13T09:14:54+00:00",
+      "days_left": 40,
+      "issuer": {
+        "countryName": "US",
+        "organizationName": "Google Trust Services",
+        "commonName": "WE1"
+      },
+      "error": null
+    },
+    {
+      "host": "stl-finance-portal.singerthai.app",
+      "valid": true,
+      "valid_from": "2026-07-20T00:49:18+00:00",
+      "valid_to": "2026-10-18T01:49:08+00:00",
+      "days_left": 74,
+      "issuer": {
+        "countryName": "US",
+        "organizationName": "Google Trust Services",
+        "commonName": "WE1"
+      },
+      "error": null
+    },
+    {
+      "host": "stl-meeting-room.singerthai.app",
+      "valid": true,
+      "valid_from": "2026-07-28T12:14:07+00:00",
+      "valid_to": "2026-10-26T13:14:00+00:00",
+      "days_left": 83,
+      "issuer": {
+        "countryName": "US",
+        "organizationName": "Google Trust Services",
+        "commonName": "WE1"
+      },
+      "error": null
+    },
+    {
+      "host": "stl-product-portal.singerthai.app",
+      "valid": true,
+      "valid_from": "2026-07-13T02:13:01+00:00",
+      "valid_to": "2026-10-11T03:12:51+00:00",
+      "days_left": 67,
+      "issuer": {
+        "countryName": "US",
+        "organizationName": "Google Trust Services",
+        "commonName": "WE1"
+      },
+      "error": null
+    },
+    {
+      "host": "stl-sale-org.singerthai.app",
+      "valid": true,
+      "valid_from": "2026-06-08T12:30:53+00:00",
+      "valid_to": "2026-09-06T13:30:43+00:00",
+      "days_left": 33,
+      "issuer": {
+        "countryName": "US",
+        "organizationName": "Google Trust Services",
+        "commonName": "WE1"
+      },
+      "error": null
+    },
+    {
+      "host": "stl-service.singerthai.app",
+      "valid": true,
+      "valid_from": "2026-06-06T11:10:33+00:00",
+      "valid_to": "2026-09-04T12:10:24+00:00",
+      "days_left": 31,
+      "issuer": {
+        "countryName": "US",
+        "organizationName": "Google Trust Services",
+        "commonName": "WE1"
+      },
+      "error": null
+    },
+    {
+      "host": "stl-srp-neo.singerthai.app",
+      "valid": true,
+      "valid_from": "2026-07-09T08:13:40+00:00",
+      "valid_to": "2026-10-07T09:13:36+00:00",
+      "days_left": 64,
+      "issuer": {
+        "countryName": "US",
+        "organizationName": "Google Trust Services",
+        "commonName": "WE1"
+      },
+      "error": null
+    },
+    {
+      "host": "subscribe-plus-front.singerthai.app",
+      "valid": true,
+      "valid_from": "2026-07-11T04:58:21+00:00",
+      "valid_to": "2026-10-09T05:58:15+00:00",
+      "days_left": 66,
+      "issuer": {
+        "countryName": "US",
+        "organizationName": "Google Trust Services",
+        "commonName": "WE1"
+      },
+      "error": null
+    },
+    {
+      "host": "telesale.singerthai.app",
+      "valid": true,
+      "valid_from": "2026-08-03T08:29:46+00:00",
+      "valid_to": "2026-11-01T09:29:44+00:00",
+      "days_left": 89,
+      "issuer": {
+        "countryName": "US",
+        "organizationName": "Google Trust Services",
+        "commonName": "WE1"
+      },
+      "error": null
+    },
+    {
+      "host": "ar.sgbroker.app",
+      "valid": true,
+      "valid_from": "2026-06-12T10:55:56+00:00",
+      "valid_to": "2026-09-10T11:54:27+00:00",
+      "days_left": 37,
+      "issuer": {
+        "countryName": "US",
+        "organizationName": "Google Trust Services",
+        "commonName": "WE1"
+      },
+      "error": null
+    },
+    {
+      "host": "easy-api.sgbroker.app",
+      "valid": true,
+      "valid_from": "2026-06-12T10:55:56+00:00",
+      "valid_to": "2026-09-10T11:54:27+00:00",
+      "days_left": 37,
+      "issuer": {
+        "countryName": "US",
+        "organizationName": "Google Trust Services",
+        "commonName": "WE1"
+      },
+      "error": null
+    },
+    {
+      "host": "easy-docs.sgbroker.app",
+      "valid": true,
+      "valid_from": "2026-06-12T10:55:56+00:00",
+      "valid_to": "2026-09-10T11:54:27+00:00",
+      "days_left": 37,
+      "issuer": {
+        "countryName": "US",
+        "organizationName": "Google Trust Services",
+        "commonName": "WE1"
+      },
+      "error": null
+    },
+    {
+      "host": "easy.sgbroker.app",
+      "valid": true,
+      "valid_from": "2026-06-12T10:55:56+00:00",
+      "valid_to": "2026-09-10T11:54:27+00:00",
+      "days_left": 37,
+      "issuer": {
+        "countryName": "US",
+        "organizationName": "Google Trust Services",
+        "commonName": "WE1"
+      },
+      "error": null
+    },
+    {
+      "host": "odoo.sgbroker.app",
+      "valid": true,
+      "valid_from": "2026-06-12T10:55:56+00:00",
+      "valid_to": "2026-09-10T11:54:27+00:00",
+      "days_left": 37,
+      "issuer": {
+        "countryName": "US",
+        "organizationName": "Google Trust Services",
+        "commonName": "WE1"
       },
       "error": null
     }
