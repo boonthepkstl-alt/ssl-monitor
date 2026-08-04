@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-08-04T02:55:50.633819+00:00",
+  "results": [
+    {
+      "host": "app-konga.singerthai.app",
+      "valid": true,
+      "valid_from": "2025-08-26T00:00:00+00:00",
+      "valid_to": "2026-09-02T23:59:59+00:00",
+      "days_left": 29,
+      "issuer": {
+        "countryName": "GB",
+        "organizationName": "Sectigo Limited",
+        "commonName": "Sectigo Public Server Authentication CA DV R36"
+      },
+      "error": null
+    }
+  ]
+}
