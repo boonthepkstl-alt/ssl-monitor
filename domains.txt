@@ -51,3 +51,10 @@ stl-service.singerthai.app
 stl-srp-neo.singerthai.app
 subscribe-plus-front.singerthai.app
 telesale.singerthai.app
+
+# SGB .app
+ar.sgbroker.app
+easy-api.sgbroker.app
+easy-docs.sgbroker.app
+easy.sgbroker.app
+odoo.sgbroker.app
