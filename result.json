@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-17T02:21:46.092589+00:00",
+  "generated_at": "2026-08-18T02:17:38.675567+00:00",
   "results": [
     {
       "host": "app-konga.singerthai.app",
       "valid": true,
       "valid_from": "2025-08-26T00:00:00+00:00",
       "valid_to": "2026-09-02T23:59:59+00:00",
-      "days_left": 16,
+      "days_left": 15,
       "issuer": {
         "countryName": "GB",
         "organizationName": "Sectigo Limited",
@@ -19,7 +19,7 @@
       "valid": true,
       "valid_from": "2025-08-26T00:00:00+00:00",
       "valid_to": "2026-09-02T23:59:59+00:00",
-      "days_left": 16,
+      "days_left": 15,
       "issuer": {
         "countryName": "GB",
         "organizationName": "Sectigo Limited",
@@ -32,7 +32,7 @@
       "valid": true,
       "valid_from": "2025-08-26T00:00:00+00:00",
       "valid_to": "2026-09-02T23:59:59+00:00",
-      "days_left": 16,
+      "days_left": 15,
       "issuer": {
         "countryName": "GB",
         "organizationName": "Sectigo Limited",
@@ -45,7 +45,7 @@
       "valid": true,
       "valid_from": "2025-08-26T00:00:00+00:00",
       "valid_to": "2026-09-02T23:59:59+00:00",
-      "days_left": 16,
+      "days_left": 15,
       "issuer": {
         "countryName": "GB",
         "organizationName": "Sectigo Limited",
@@ -58,7 +58,7 @@
       "valid": true,
       "valid_from": "2026-07-27T20:01:19+00:00",
       "valid_to": "2026-10-25T21:00:58+00:00",
-      "days_left": 69,
+      "days_left": 68,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -71,7 +71,7 @@
       "valid": true,
       "valid_from": "2026-07-27T20:01:19+00:00",
       "valid_to": "2026-10-25T21:00:58+00:00",
-      "days_left": 69,
+      "days_left": 68,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -84,7 +84,7 @@
       "valid": true,
       "valid_from": "2026-07-27T20:01:19+00:00",
       "valid_to": "2026-10-25T21:00:58+00:00",
-      "days_left": 69,
+      "days_left": 68,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -97,7 +97,7 @@
       "valid": true,
       "valid_from": "2026-07-27T20:01:19+00:00",
       "valid_to": "2026-10-25T21:00:58+00:00",
-      "days_left": 69,
+      "days_left": 68,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -110,7 +110,7 @@
       "valid": true,
       "valid_from": "2025-08-26T00:00:00+00:00",
       "valid_to": "2026-09-02T23:59:59+00:00",
-      "days_left": 16,
+      "days_left": 15,
       "issuer": {
         "countryName": "GB",
         "organizationName": "Sectigo Limited",
@@ -123,7 +123,7 @@
       "valid": true,
       "valid_from": "2026-07-27T20:01:19+00:00",
       "valid_to": "2026-10-25T21:00:58+00:00",
-      "days_left": 69,
+      "days_left": 68,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -136,7 +136,7 @@
       "valid": true,
       "valid_from": "2026-07-27T20:01:19+00:00",
       "valid_to": "2026-10-25T21:00:58+00:00",
-      "days_left": 69,
+      "days_left": 68,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -149,7 +149,7 @@
       "valid": true,
       "valid_from": "2025-08-26T00:00:00+00:00",
       "valid_to": "2026-09-02T23:59:59+00:00",
-      "days_left": 16,
+      "days_left": 15,
       "issuer": {
         "countryName": "GB",
         "organizationName": "Sectigo Limited",
@@ -162,7 +162,7 @@
       "valid": true,
       "valid_from": "2025-08-26T00:00:00+00:00",
       "valid_to": "2026-09-02T23:59:59+00:00",
-      "days_left": 16,
+      "days_left": 15,
       "issuer": {
         "countryName": "GB",
         "organizationName": "Sectigo Limited",
@@ -175,7 +175,7 @@
       "valid": true,
       "valid_from": "2025-08-26T00:00:00+00:00",
       "valid_to": "2026-09-02T23:59:59+00:00",
-      "days_left": 16,
+      "days_left": 15,
       "issuer": {
         "countryName": "GB",
         "organizationName": "Sectigo Limited",
@@ -188,7 +188,7 @@
       "valid": true,
       "valid_from": "2025-08-26T00:00:00+00:00",
       "valid_to": "2026-09-02T23:59:59+00:00",
-      "days_left": 16,
+      "days_left": 15,
       "issuer": {
         "countryName": "GB",
         "organizationName": "Sectigo Limited",
@@ -201,7 +201,7 @@
       "valid": true,
       "valid_from": "2025-08-26T00:00:00+00:00",
       "valid_to": "2026-09-02T23:59:59+00:00",
-      "days_left": 16,
+      "days_left": 15,
       "issuer": {
         "countryName": "GB",
         "organizationName": "Sectigo Limited",
@@ -214,7 +214,7 @@
       "valid": true,
       "valid_from": "2026-07-27T20:01:19+00:00",
       "valid_to": "2026-10-25T21:00:58+00:00",
-      "days_left": 69,
+      "days_left": 68,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -227,7 +227,7 @@
       "valid": true,
       "valid_from": "2025-08-26T00:00:00+00:00",
       "valid_to": "2026-09-02T23:59:59+00:00",
-      "days_left": 16,
+      "days_left": 15,
       "issuer": {
         "countryName": "GB",
         "organizationName": "Sectigo Limited",
@@ -240,7 +240,7 @@
       "valid": true,
       "valid_from": "2025-08-26T00:00:00+00:00",
       "valid_to": "2026-09-02T23:59:59+00:00",
-      "days_left": 16,
+      "days_left": 15,
       "issuer": {
         "countryName": "GB",
         "organizationName": "Sectigo Limited",
@@ -253,7 +253,7 @@
       "valid": true,
       "valid_from": "2025-08-26T00:00:00+00:00",
       "valid_to": "2026-09-02T23:59:59+00:00",
-      "days_left": 16,
+      "days_left": 15,
       "issuer": {
         "countryName": "GB",
         "organizationName": "Sectigo Limited",
@@ -266,7 +266,7 @@
       "valid": true,
       "valid_from": "2026-07-27T20:01:19+00:00",
       "valid_to": "2026-10-25T21:00:58+00:00",
-      "days_left": 69,
+      "days_left": 68,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -279,7 +279,7 @@
       "valid": true,
       "valid_from": "2026-07-27T20:01:19+00:00",
       "valid_to": "2026-10-25T21:00:58+00:00",
-      "days_left": 69,
+      "days_left": 68,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -292,7 +292,7 @@
       "valid": true,
       "valid_from": "2026-07-27T20:01:19+00:00",
       "valid_to": "2026-10-25T21:00:58+00:00",
-      "days_left": 69,
+      "days_left": 68,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -305,7 +305,7 @@
       "valid": true,
       "valid_from": "2026-06-30T06:26:44+00:00",
       "valid_to": "2026-09-28T07:26:42+00:00",
-      "days_left": 42,
+      "days_left": 41,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -318,7 +318,7 @@
       "valid": true,
       "valid_from": "2026-06-30T10:08:57+00:00",
       "valid_to": "2026-09-28T11:08:50+00:00",
-      "days_left": 42,
+      "days_left": 41,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -331,7 +331,7 @@
       "valid": true,
       "valid_from": "2026-07-29T18:10:55+00:00",
       "valid_to": "2026-10-27T19:10:47+00:00",
-      "days_left": 71,
+      "days_left": 70,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -344,7 +344,7 @@
       "valid": true,
       "valid_from": "2026-07-29T10:48:06+00:00",
       "valid_to": "2026-10-27T11:47:59+00:00",
-      "days_left": 71,
+      "days_left": 70,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -357,7 +357,7 @@
       "valid": true,
       "valid_from": "2026-07-14T18:28:30+00:00",
       "valid_to": "2026-10-12T19:28:28+00:00",
-      "days_left": 56,
+      "days_left": 55,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -370,7 +370,7 @@
       "valid": true,
       "valid_from": "2026-07-08T09:43:37+00:00",
       "valid_to": "2026-10-06T10:43:28+00:00",
-      "days_left": 50,
+      "days_left": 49,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -383,7 +383,7 @@
       "valid": true,
       "valid_from": "2026-07-27T20:01:19+00:00",
       "valid_to": "2026-10-25T21:00:58+00:00",
-      "days_left": 69,
+      "days_left": 68,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -396,7 +396,7 @@
       "valid": true,
       "valid_from": "2026-06-22T01:31:36+00:00",
       "valid_to": "2026-09-20T02:31:26+00:00",
-      "days_left": 34,
+      "days_left": 33,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -409,7 +409,7 @@
       "valid": true,
       "valid_from": "2026-08-04T12:35:10+00:00",
       "valid_to": "2026-11-02T13:35:06+00:00",
-      "days_left": 77,
+      "days_left": 76,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -422,7 +422,7 @@
       "valid": true,
       "valid_from": "2026-08-13T09:56:52+00:00",
       "valid_to": "2026-11-11T10:56:48+00:00",
-      "days_left": 86,
+      "days_left": 85,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -435,7 +435,7 @@
       "valid": true,
       "valid_from": "2026-07-20T00:49:18+00:00",
       "valid_to": "2026-10-18T01:49:08+00:00",
-      "days_left": 61,
+      "days_left": 60,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -448,7 +448,7 @@
       "valid": true,
       "valid_from": "2026-07-28T12:14:07+00:00",
       "valid_to": "2026-10-26T13:14:00+00:00",
-      "days_left": 70,
+      "days_left": 69,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -461,7 +461,7 @@
       "valid": true,
       "valid_from": "2026-07-13T02:13:01+00:00",
       "valid_to": "2026-10-11T03:12:51+00:00",
-      "days_left": 55,
+      "days_left": 54,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -474,7 +474,7 @@
       "valid": true,
       "valid_from": "2026-08-06T18:36:41+00:00",
       "valid_to": "2026-11-04T19:36:33+00:00",
-      "days_left": 79,
+      "days_left": 78,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -487,7 +487,7 @@
       "valid": true,
       "valid_from": "2026-08-04T11:45:58+00:00",
       "valid_to": "2026-11-02T12:45:56+00:00",
-      "days_left": 77,
+      "days_left": 76,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -500,7 +500,7 @@
       "valid": true,
       "valid_from": "2026-07-09T08:13:40+00:00",
       "valid_to": "2026-10-07T09:13:36+00:00",
-      "days_left": 51,
+      "days_left": 50,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -513,7 +513,7 @@
       "valid": true,
       "valid_from": "2026-07-11T04:58:21+00:00",
       "valid_to": "2026-10-09T05:58:15+00:00",
-      "days_left": 53,
+      "days_left": 52,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -526,7 +526,7 @@
       "valid": true,
       "valid_from": "2026-08-03T08:29:46+00:00",
       "valid_to": "2026-11-01T09:29:44+00:00",
-      "days_left": 76,
+      "days_left": 75,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -539,7 +539,7 @@
       "valid": true,
       "valid_from": "2026-05-19T00:00:00+00:00",
       "valid_to": "2026-12-02T23:59:59+00:00",
-      "days_left": 107,
+      "days_left": 106,
       "issuer": {
         "countryName": "US",
         "organizationName": "Amazon",
@@ -552,7 +552,7 @@
       "valid": true,
       "valid_from": "2026-05-19T00:00:00+00:00",
       "valid_to": "2026-12-02T23:59:59+00:00",
-      "days_left": 107,
+      "days_left": 106,
       "issuer": {
         "countryName": "US",
         "organizationName": "Amazon",
@@ -565,7 +565,7 @@
       "valid": true,
       "valid_from": "2026-05-19T00:00:00+00:00",
       "valid_to": "2026-12-02T23:59:59+00:00",
-      "days_left": 107,
+      "days_left": 106,
       "issuer": {
         "countryName": "US",
         "organizationName": "Amazon",
@@ -578,7 +578,7 @@
       "valid": true,
       "valid_from": "2026-05-19T00:00:00+00:00",
       "valid_to": "2026-12-02T23:59:59+00:00",
-      "days_left": 107,
+      "days_left": 106,
       "issuer": {
         "countryName": "US",
         "organizationName": "Amazon",
@@ -591,7 +591,7 @@
       "valid": true,
       "valid_from": "2026-05-19T00:00:00+00:00",
       "valid_to": "2026-12-02T23:59:59+00:00",
-      "days_left": 107,
+      "days_left": 106,
       "issuer": {
         "countryName": "US",
         "organizationName": "Amazon",
