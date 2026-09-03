@@ -43,6 +43,11 @@ stl-service.singerthai.app
 stl-srp-neo.singerthai.app
 subscribe-plus-front.singerthai.app
 telesale.singerthai.app
+sgf-ez.singerthai.app
+bl.singerthai.app
+e-tax.singerthai.app
+edocument.singerthai.app
+payment.singerthai.app
 
 # SGB .app
 ar.sgbroker.app
