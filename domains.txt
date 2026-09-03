@@ -55,3 +55,13 @@ easy-api.sgbroker.app
 easy-docs.sgbroker.app
 easy.sgbroker.app
 odoo.sgbroker.app
+
+# Singerthai.co.th
+api.singerthai.co.th
+bl.singerthai.co.th
+edocument.singerthai.co.th
+etax.singerthai.co.th
+inv.singerthai.co.th
+konga.singerthai.co.th
+payment.singerthai.co.th
+sg-crm.singerthai.co.th
