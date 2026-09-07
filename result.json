@@ -1,395 +1,678 @@
 {
-  "generated_at": "2026-09-06T05:44:36.674447+00:00",
+  "generated_at": "2026-09-07T02:55:11.890253+00:00",
+  "scopes": [
+    "public"
+  ],
+  "thresholds": {
+    "warn_days": 30,
+    "urgent_days": 7
+  },
+  "summary": {
+    "total": 46,
+    "alert_count": 1,
+    "infra_issue_count": 0,
+    "by_status": {
+      "ok": 45,
+      "expired": 1
+    }
+  },
+  "alerts": [
+    {
+      "host": "singercrmline-migrate-service.singerthai.app",
+      "status": "expired",
+      "severity": "expired",
+      "days_left": -5,
+      "valid_to": "2026-09-02T23:59:59+00:00",
+      "scope": "public"
+    }
+  ],
+  "infra_issues": [],
   "results": [
     {
       "host": "app-konga.singerthai.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
       "valid": true,
+      "cert_verified": true,
       "valid_from": "2026-08-11T02:25:17+00:00",
       "valid_to": "2027-02-25T02:30:01+00:00",
-      "days_left": 171,
+      "days_left": 170,
       "issuer": {
         "countryName": "US",
         "organizationName": "SSL Corporation",
         "commonName": "SSL.com TLS Issuing RSA CA R1"
       },
+      "subject": {
+        "commonName": "*.singerthai.app"
+      },
+      "alert": false,
+      "attempts": 1,
       "error": null
     },
     {
       "host": "app-api.singerthai.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
       "valid": true,
+      "cert_verified": true,
       "valid_from": "2026-08-11T02:25:17+00:00",
       "valid_to": "2027-02-25T02:30:01+00:00",
-      "days_left": 171,
+      "days_left": 170,
       "issuer": {
         "countryName": "US",
         "organizationName": "SSL Corporation",
         "commonName": "SSL.com TLS Issuing RSA CA R1"
       },
-      "error": null
-    },
-    {
-      "host": "app-konga.singerthai.app",
-      "valid": true,
-      "valid_from": "2026-08-11T02:25:17+00:00",
-      "valid_to": "2027-02-25T02:30:01+00:00",
-      "days_left": 171,
-      "issuer": {
-        "countryName": "US",
-        "organizationName": "SSL Corporation",
-        "commonName": "SSL.com TLS Issuing RSA CA R1"
+      "subject": {
+        "commonName": "*.singerthai.app"
       },
+      "alert": false,
+      "attempts": 1,
       "error": null
     },
     {
       "host": "collection.singerthai.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
       "valid": true,
+      "cert_verified": true,
       "valid_from": "2026-08-11T02:25:17+00:00",
       "valid_to": "2027-02-25T02:30:01+00:00",
-      "days_left": 171,
+      "days_left": 170,
       "issuer": {
         "countryName": "US",
         "organizationName": "SSL Corporation",
         "commonName": "SSL.com TLS Issuing RSA CA R1"
       },
+      "subject": {
+        "commonName": "*.singerthai.app"
+      },
+      "alert": false,
+      "attempts": 1,
       "error": null
     },
     {
       "host": "etax.singerthai.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
       "valid": true,
+      "cert_verified": true,
       "valid_from": "2026-07-27T20:01:19+00:00",
       "valid_to": "2026-10-25T21:00:58+00:00",
-      "days_left": 49,
+      "days_left": 48,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
         "commonName": "WE1"
       },
+      "subject": {
+        "commonName": "singerthai.app"
+      },
+      "alert": false,
+      "attempts": 1,
       "error": null
     },
     {
       "host": "media-service.singerthai.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
       "valid": true,
+      "cert_verified": true,
       "valid_from": "2026-07-27T20:01:19+00:00",
       "valid_to": "2026-10-25T21:00:58+00:00",
-      "days_left": 49,
+      "days_left": 48,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
         "commonName": "WE1"
       },
+      "subject": {
+        "commonName": "singerthai.app"
+      },
+      "alert": false,
+      "attempts": 1,
       "error": null
     },
     {
       "host": "qr-payment2.singerthai.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
       "valid": true,
+      "cert_verified": true,
       "valid_from": "2026-07-27T20:01:19+00:00",
       "valid_to": "2026-10-25T21:00:58+00:00",
-      "days_left": 49,
+      "days_left": 48,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
         "commonName": "WE1"
       },
+      "subject": {
+        "commonName": "singerthai.app"
+      },
+      "alert": false,
+      "attempts": 1,
       "error": null
     },
     {
       "host": "qr-payment.singerthai.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
       "valid": true,
+      "cert_verified": true,
       "valid_from": "2026-07-27T20:01:19+00:00",
       "valid_to": "2026-10-25T21:00:58+00:00",
-      "days_left": 49,
+      "days_left": 48,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
         "commonName": "WE1"
       },
+      "subject": {
+        "commonName": "singerthai.app"
+      },
+      "alert": false,
+      "attempts": 1,
       "error": null
     },
     {
       "host": "scb-api.singerthai.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
       "valid": true,
+      "cert_verified": true,
       "valid_from": "2026-08-11T02:25:17+00:00",
       "valid_to": "2027-02-25T02:30:01+00:00",
-      "days_left": 171,
+      "days_left": 170,
       "issuer": {
         "countryName": "US",
         "organizationName": "SSL Corporation",
         "commonName": "SSL.com TLS Issuing RSA CA R1"
       },
+      "subject": {
+        "commonName": "*.singerthai.app"
+      },
+      "alert": false,
+      "attempts": 1,
       "error": null
     },
     {
       "host": "sgb-app.singerthai.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
       "valid": true,
+      "cert_verified": true,
       "valid_from": "2026-07-27T20:01:19+00:00",
       "valid_to": "2026-10-25T21:00:58+00:00",
-      "days_left": 49,
+      "days_left": 48,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
         "commonName": "WE1"
       },
+      "subject": {
+        "commonName": "singerthai.app"
+      },
+      "alert": false,
+      "attempts": 1,
       "error": null
     },
     {
       "host": "sgs-rq.singerthai.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
       "valid": true,
+      "cert_verified": true,
       "valid_from": "2026-07-27T20:01:19+00:00",
       "valid_to": "2026-10-25T21:00:58+00:00",
-      "days_left": 49,
+      "days_left": 48,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
         "commonName": "WE1"
       },
+      "subject": {
+        "commonName": "singerthai.app"
+      },
+      "alert": false,
+      "attempts": 1,
       "error": null
     },
     {
       "host": "singercrm-back.singerthai.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
       "valid": true,
+      "cert_verified": true,
       "valid_from": "2026-08-11T02:25:17+00:00",
       "valid_to": "2027-02-25T02:30:01+00:00",
-      "days_left": 171,
+      "days_left": 170,
       "issuer": {
         "countryName": "US",
         "organizationName": "SSL Corporation",
         "commonName": "SSL.com TLS Issuing RSA CA R1"
       },
+      "subject": {
+        "commonName": "*.singerthai.app"
+      },
+      "alert": false,
+      "attempts": 1,
       "error": null
     },
     {
       "host": "singercrm-front.singerthai.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
       "valid": true,
+      "cert_verified": true,
       "valid_from": "2026-08-11T02:25:17+00:00",
       "valid_to": "2027-02-25T02:30:01+00:00",
-      "days_left": 171,
+      "days_left": 170,
       "issuer": {
         "countryName": "US",
         "organizationName": "SSL Corporation",
         "commonName": "SSL.com TLS Issuing RSA CA R1"
       },
+      "subject": {
+        "commonName": "*.singerthai.app"
+      },
+      "alert": false,
+      "attempts": 1,
       "error": null
     },
     {
       "host": "singercrmline-back.singerthai.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
       "valid": true,
+      "cert_verified": true,
       "valid_from": "2026-08-11T02:25:17+00:00",
       "valid_to": "2027-02-25T02:30:01+00:00",
-      "days_left": 171,
+      "days_left": 170,
       "issuer": {
         "countryName": "US",
         "organizationName": "SSL Corporation",
         "commonName": "SSL.com TLS Issuing RSA CA R1"
       },
+      "subject": {
+        "commonName": "*.singerthai.app"
+      },
+      "alert": false,
+      "attempts": 1,
       "error": null
     },
     {
       "host": "singercrmline-front.singerthai.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
       "valid": true,
+      "cert_verified": true,
       "valid_from": "2026-08-11T02:25:17+00:00",
       "valid_to": "2027-02-25T02:30:01+00:00",
-      "days_left": 171,
+      "days_left": 170,
       "issuer": {
         "countryName": "US",
         "organizationName": "SSL Corporation",
         "commonName": "SSL.com TLS Issuing RSA CA R1"
       },
+      "subject": {
+        "commonName": "*.singerthai.app"
+      },
+      "alert": false,
+      "attempts": 1,
       "error": null
     },
     {
       "host": "singercrmline-migrate-service.singerthai.app",
-      "valid": null,
-      "valid_from": null,
-      "valid_to": null,
-      "days_left": null,
-      "issuer": null,
-      "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)"
+      "port": 443,
+      "scope": "public",
+      "status": "expired",
+      "valid": false,
+      "cert_verified": false,
+      "valid_from": "2025-08-26T00:00:00+00:00",
+      "valid_to": "2026-09-02T23:59:59+00:00",
+      "days_left": -5,
+      "issuer": {
+        "countryName": "GB",
+        "organizationName": "Sectigo Limited",
+        "commonName": "Sectigo Public Server Authentication CA DV R36"
+      },
+      "subject": {
+        "commonName": "*.singerthai.app"
+      },
+      "alert": true,
+      "attempts": 1,
+      "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1082)"
     },
     {
       "host": "singerthai.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
       "valid": true,
+      "cert_verified": true,
       "valid_from": "2026-07-27T20:01:19+00:00",
       "valid_to": "2026-10-25T21:00:58+00:00",
-      "days_left": 49,
+      "days_left": 48,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
         "commonName": "WE1"
       },
+      "subject": {
+        "commonName": "singerthai.app"
+      },
+      "alert": false,
+      "attempts": 1,
       "error": null
     },
     {
       "host": "singer-tracking-api.singerthai.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
       "valid": true,
+      "cert_verified": true,
       "valid_from": "2026-08-11T02:25:17+00:00",
       "valid_to": "2027-02-25T02:30:01+00:00",
-      "days_left": 171,
+      "days_left": 170,
       "issuer": {
         "countryName": "US",
         "organizationName": "SSL Corporation",
         "commonName": "SSL.com TLS Issuing RSA CA R1"
       },
+      "subject": {
+        "commonName": "*.singerthai.app"
+      },
+      "alert": false,
+      "attempts": 1,
       "error": null
     },
     {
       "host": "singer-tracking-backoffice-api.singerthai.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
       "valid": true,
+      "cert_verified": true,
       "valid_from": "2026-08-11T02:25:17+00:00",
       "valid_to": "2027-02-25T02:30:01+00:00",
-      "days_left": 171,
+      "days_left": 170,
       "issuer": {
         "countryName": "US",
         "organizationName": "SSL Corporation",
         "commonName": "SSL.com TLS Issuing RSA CA R1"
       },
+      "subject": {
+        "commonName": "*.singerthai.app"
+      },
+      "alert": false,
+      "attempts": 1,
       "error": null
     },
     {
       "host": "singer-tracking-backoffice.singerthai.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
       "valid": true,
+      "cert_verified": true,
       "valid_from": "2026-08-11T02:25:17+00:00",
       "valid_to": "2027-02-25T02:30:01+00:00",
-      "days_left": 171,
+      "days_left": 170,
       "issuer": {
         "countryName": "US",
         "organizationName": "SSL Corporation",
         "commonName": "SSL.com TLS Issuing RSA CA R1"
       },
+      "subject": {
+        "commonName": "*.singerthai.app"
+      },
+      "alert": false,
+      "attempts": 1,
       "error": null
     },
     {
       "host": "stl-bl.singerthai.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
       "valid": true,
+      "cert_verified": true,
       "valid_from": "2026-07-27T20:01:19+00:00",
       "valid_to": "2026-10-25T21:00:58+00:00",
-      "days_left": 49,
+      "days_left": 48,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
         "commonName": "WE1"
       },
+      "subject": {
+        "commonName": "singerthai.app"
+      },
+      "alert": false,
+      "attempts": 1,
       "error": null
     },
     {
       "host": "stl-collection.singerthai.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
       "valid": true,
+      "cert_verified": true,
       "valid_from": "2026-07-27T20:01:19+00:00",
       "valid_to": "2026-10-25T21:00:58+00:00",
-      "days_left": 49,
+      "days_left": 48,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
         "commonName": "WE1"
       },
+      "subject": {
+        "commonName": "singerthai.app"
+      },
+      "alert": false,
+      "attempts": 1,
       "error": null
     },
     {
       "host": "store.singerthai.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
       "valid": true,
+      "cert_verified": true,
       "valid_from": "2026-07-27T20:01:19+00:00",
       "valid_to": "2026-10-25T21:00:58+00:00",
-      "days_left": 49,
+      "days_left": 48,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
         "commonName": "WE1"
       },
+      "subject": {
+        "commonName": "singerthai.app"
+      },
+      "alert": false,
+      "attempts": 1,
       "error": null
     },
     {
       "host": "kon-config.singerthai.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
       "valid": true,
+      "cert_verified": true,
       "valid_from": "2026-08-28T06:47:41+00:00",
       "valid_to": "2026-11-26T07:47:37+00:00",
-      "days_left": 81,
+      "days_left": 80,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
         "commonName": "WE1"
       },
+      "subject": {
+        "commonName": "kon-config.singerthai.app"
+      },
+      "alert": false,
+      "attempts": 1,
       "error": null
     },
     {
       "host": "kong-config.singerthai.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
       "valid": true,
+      "cert_verified": true,
       "valid_from": "2026-08-28T10:57:37+00:00",
       "valid_to": "2026-11-26T11:57:34+00:00",
-      "days_left": 81,
+      "days_left": 80,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
         "commonName": "WE1"
       },
+      "subject": {
+        "commonName": "kong-config.singerthai.app"
+      },
+      "alert": false,
+      "attempts": 1,
       "error": null
     },
     {
       "host": "rpay-check.singerthai.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
       "valid": true,
+      "cert_verified": true,
       "valid_from": "2026-07-29T18:10:55+00:00",
       "valid_to": "2026-10-27T19:10:47+00:00",
-      "days_left": 51,
+      "days_left": 50,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
         "commonName": "WE1"
       },
+      "subject": {
+        "commonName": "rpay-check.singerthai.app"
+      },
+      "alert": false,
+      "attempts": 1,
       "error": null
     },
     {
       "host": "rpay.singerthai.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
       "valid": true,
+      "cert_verified": true,
       "valid_from": "2026-07-29T10:48:06+00:00",
       "valid_to": "2026-10-27T11:47:59+00:00",
-      "days_left": 51,
+      "days_left": 50,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
         "commonName": "WE1"
       },
+      "subject": {
+        "commonName": "rpay.singerthai.app"
+      },
+      "alert": false,
+      "attempts": 1,
       "error": null
     },
     {
       "host": "sgsrq.singerthai.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
       "valid": true,
+      "cert_verified": true,
       "valid_from": "2026-07-14T18:28:30+00:00",
       "valid_to": "2026-10-12T19:28:28+00:00",
-      "days_left": 36,
+      "days_left": 35,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
         "commonName": "WE1"
       },
+      "subject": {
+        "commonName": "sgsrq.singerthai.app"
+      },
+      "alert": false,
+      "attempts": 1,
       "error": null
     },
     {
       "host": "sgs.singerthai.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
       "valid": true,
+      "cert_verified": true,
       "valid_from": "2026-09-05T10:51:07+00:00",
       "valid_to": "2026-12-04T11:51:03+00:00",
-      "days_left": 89,
+      "days_left": 88,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
         "commonName": "WE1"
       },
+      "subject": {
+        "commonName": "sgs.singerthai.app"
+      },
+      "alert": false,
+      "attempts": 1,
       "error": null
     },
     {
       "host": "stg-collection.singerthai.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
       "valid": true,
+      "cert_verified": true,
       "valid_from": "2026-07-27T20:01:19+00:00",
       "valid_to": "2026-10-25T21:00:58+00:00",
-      "days_left": 49,
+      "days_left": 48,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
         "commonName": "WE1"
       },
+      "subject": {
+        "commonName": "singerthai.app"
+      },
+      "alert": false,
+      "attempts": 1,
       "error": null
     },
     {
       "host": "stl-collection-frontend.singerthai.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
       "valid": true,
+      "cert_verified": true,
       "valid_from": "2026-08-20T04:35:55+00:00",
       "valid_to": "2026-11-18T05:35:50+00:00",
       "days_left": 72,
@@ -398,63 +681,108 @@
         "organizationName": "Google Trust Services",
         "commonName": "WE1"
       },
+      "subject": {
+        "commonName": "stl-collection-frontend.singerthai.app"
+      },
+      "alert": false,
+      "attempts": 1,
       "error": null
     },
     {
       "host": "stl-commission-front.singerthai.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
       "valid": true,
+      "cert_verified": true,
       "valid_from": "2026-08-04T12:35:10+00:00",
       "valid_to": "2026-11-02T13:35:06+00:00",
-      "days_left": 57,
+      "days_left": 56,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
         "commonName": "WE1"
       },
+      "subject": {
+        "commonName": "stl-commission-front.singerthai.app"
+      },
+      "alert": false,
+      "attempts": 1,
       "error": null
     },
     {
       "host": "stl-dealer-mgn.singerthai.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
       "valid": true,
+      "cert_verified": true,
       "valid_from": "2026-08-13T09:56:52+00:00",
       "valid_to": "2026-11-11T10:56:48+00:00",
-      "days_left": 66,
+      "days_left": 65,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
         "commonName": "WE1"
       },
+      "subject": {
+        "commonName": "stl-dealer-mgn.singerthai.app"
+      },
+      "alert": false,
+      "attempts": 1,
       "error": null
     },
     {
       "host": "stl-finance-portal.singerthai.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
       "valid": true,
+      "cert_verified": true,
       "valid_from": "2026-07-20T00:49:18+00:00",
       "valid_to": "2026-10-18T01:49:08+00:00",
-      "days_left": 41,
+      "days_left": 40,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
         "commonName": "WE1"
       },
+      "subject": {
+        "commonName": "stl-finance-portal.singerthai.app"
+      },
+      "alert": false,
+      "attempts": 1,
       "error": null
     },
     {
       "host": "stl-meeting-room.singerthai.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
       "valid": true,
+      "cert_verified": true,
       "valid_from": "2026-07-28T12:14:07+00:00",
       "valid_to": "2026-10-26T13:14:00+00:00",
-      "days_left": 50,
+      "days_left": 49,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
         "commonName": "WE1"
       },
+      "subject": {
+        "commonName": "stl-meeting-room.singerthai.app"
+      },
+      "alert": false,
+      "attempts": 1,
       "error": null
     },
     {
       "host": "stl-product-portal.singerthai.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
       "valid": true,
+      "cert_verified": true,
       "valid_from": "2026-07-13T02:13:01+00:00",
       "valid_to": "2026-10-11T03:12:51+00:00",
       "days_left": 34,
@@ -463,258 +791,254 @@
         "organizationName": "Google Trust Services",
         "commonName": "WE1"
       },
+      "subject": {
+        "commonName": "stl-product-portal.singerthai.app"
+      },
+      "alert": false,
+      "attempts": 1,
       "error": null
     },
     {
       "host": "stl-sale-org.singerthai.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
       "valid": true,
+      "cert_verified": true,
       "valid_from": "2026-08-06T18:36:41+00:00",
       "valid_to": "2026-11-04T19:36:33+00:00",
-      "days_left": 59,
+      "days_left": 58,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
         "commonName": "WE1"
       },
+      "subject": {
+        "commonName": "stl-sale-org.singerthai.app"
+      },
+      "alert": false,
+      "attempts": 1,
       "error": null
     },
     {
       "host": "stl-service.singerthai.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
       "valid": true,
+      "cert_verified": true,
       "valid_from": "2026-08-04T11:45:58+00:00",
       "valid_to": "2026-11-02T12:45:56+00:00",
-      "days_left": 57,
-      "issuer": {
-        "countryName": "US",
-        "organizationName": "Google Trust Services",
-        "commonName": "WE1"
-      },
-      "error": null
-    },
-    {
-      "host": "stl-srp-neo.singerthai.app",
-      "valid": true,
-      "valid_from": "2026-07-09T08:13:40+00:00",
-      "valid_to": "2026-10-07T09:13:36+00:00",
-      "days_left": 31,
-      "issuer": {
-        "countryName": "US",
-        "organizationName": "Google Trust Services",
-        "commonName": "WE1"
-      },
-      "error": null
-    },
-    {
-      "host": "subscribe-plus-front.singerthai.app",
-      "valid": true,
-      "valid_from": "2026-07-11T04:58:21+00:00",
-      "valid_to": "2026-10-09T05:58:15+00:00",
-      "days_left": 33,
-      "issuer": {
-        "countryName": "US",
-        "organizationName": "Google Trust Services",
-        "commonName": "WE1"
-      },
-      "error": null
-    },
-    {
-      "host": "telesale.singerthai.app",
-      "valid": true,
-      "valid_from": "2026-08-03T08:29:46+00:00",
-      "valid_to": "2026-11-01T09:29:44+00:00",
       "days_left": 56,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
         "commonName": "WE1"
       },
+      "subject": {
+        "commonName": "stl-service.singerthai.app"
+      },
+      "alert": false,
+      "attempts": 1,
       "error": null
     },
     {
-      "host": "sgf-ez.singerthai.app",
-      "valid": null,
-      "valid_from": null,
-      "valid_to": null,
-      "days_left": null,
-      "issuer": null,
-      "error": "timed out"
+      "host": "stl-srp-neo.singerthai.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
+      "valid": true,
+      "cert_verified": true,
+      "valid_from": "2026-09-06T13:07:47+00:00",
+      "valid_to": "2026-12-05T14:07:42+00:00",
+      "days_left": 89,
+      "issuer": {
+        "countryName": "US",
+        "organizationName": "Google Trust Services",
+        "commonName": "WE1"
+      },
+      "subject": {
+        "commonName": "stl-srp-neo.singerthai.app"
+      },
+      "alert": false,
+      "attempts": 1,
+      "error": null
     },
     {
-      "host": "bl.singerthai.app",
-      "valid": null,
-      "valid_from": null,
-      "valid_to": null,
-      "days_left": null,
-      "issuer": null,
-      "error": "timed out"
+      "host": "subscribe-plus-front.singerthai.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
+      "valid": true,
+      "cert_verified": true,
+      "valid_from": "2026-07-11T04:58:21+00:00",
+      "valid_to": "2026-10-09T05:58:15+00:00",
+      "days_left": 32,
+      "issuer": {
+        "countryName": "US",
+        "organizationName": "Google Trust Services",
+        "commonName": "WE1"
+      },
+      "subject": {
+        "commonName": "subscribe-plus-front.singerthai.app"
+      },
+      "alert": false,
+      "attempts": 1,
+      "error": null
     },
     {
-      "host": "e-tax.singerthai.app",
-      "valid": null,
-      "valid_from": null,
-      "valid_to": null,
-      "days_left": null,
-      "issuer": null,
-      "error": "timed out"
-    },
-    {
-      "host": "edocument.singerthai.app",
-      "valid": null,
-      "valid_from": null,
-      "valid_to": null,
-      "days_left": null,
-      "issuer": null,
-      "error": "timed out"
-    },
-    {
-      "host": "payment.singerthai.app",
-      "valid": null,
-      "valid_from": null,
-      "valid_to": null,
-      "days_left": null,
-      "issuer": null,
-      "error": "timed out"
+      "host": "telesale.singerthai.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
+      "valid": true,
+      "cert_verified": true,
+      "valid_from": "2026-08-03T08:29:46+00:00",
+      "valid_to": "2026-11-01T09:29:44+00:00",
+      "days_left": 55,
+      "issuer": {
+        "countryName": "US",
+        "organizationName": "Google Trust Services",
+        "commonName": "WE1"
+      },
+      "subject": {
+        "commonName": "telesale.singerthai.app"
+      },
+      "alert": false,
+      "attempts": 1,
+      "error": null
     },
     {
       "host": "ar.sgbroker.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
       "valid": true,
+      "cert_verified": true,
       "valid_from": "2026-05-19T00:00:00+00:00",
       "valid_to": "2026-12-02T23:59:59+00:00",
-      "days_left": 87,
+      "days_left": 86,
       "issuer": {
         "countryName": "US",
         "organizationName": "Amazon",
         "commonName": "Amazon RSA 2048 M01"
       },
+      "subject": {
+        "commonName": "*.sgbroker.app"
+      },
+      "alert": false,
+      "attempts": 1,
       "error": null
     },
     {
       "host": "easy-api.sgbroker.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
       "valid": true,
+      "cert_verified": true,
       "valid_from": "2026-05-19T00:00:00+00:00",
       "valid_to": "2026-12-02T23:59:59+00:00",
-      "days_left": 87,
+      "days_left": 86,
       "issuer": {
         "countryName": "US",
         "organizationName": "Amazon",
         "commonName": "Amazon RSA 2048 M01"
       },
+      "subject": {
+        "commonName": "*.sgbroker.app"
+      },
+      "alert": false,
+      "attempts": 1,
       "error": null
     },
     {
       "host": "easy-docs.sgbroker.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
       "valid": true,
+      "cert_verified": true,
       "valid_from": "2026-05-19T00:00:00+00:00",
       "valid_to": "2026-12-02T23:59:59+00:00",
-      "days_left": 87,
+      "days_left": 86,
       "issuer": {
         "countryName": "US",
         "organizationName": "Amazon",
         "commonName": "Amazon RSA 2048 M01"
       },
+      "subject": {
+        "commonName": "*.sgbroker.app"
+      },
+      "alert": false,
+      "attempts": 1,
       "error": null
     },
     {
       "host": "easy.sgbroker.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
       "valid": true,
+      "cert_verified": true,
       "valid_from": "2026-05-19T00:00:00+00:00",
       "valid_to": "2026-12-02T23:59:59+00:00",
-      "days_left": 87,
+      "days_left": 86,
       "issuer": {
         "countryName": "US",
         "organizationName": "Amazon",
         "commonName": "Amazon RSA 2048 M01"
       },
+      "subject": {
+        "commonName": "*.sgbroker.app"
+      },
+      "alert": false,
+      "attempts": 1,
       "error": null
     },
     {
       "host": "odoo.sgbroker.app",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
       "valid": true,
+      "cert_verified": true,
       "valid_from": "2026-05-19T00:00:00+00:00",
       "valid_to": "2026-12-02T23:59:59+00:00",
-      "days_left": 87,
+      "days_left": 86,
       "issuer": {
         "countryName": "US",
         "organizationName": "Amazon",
         "commonName": "Amazon RSA 2048 M01"
       },
+      "subject": {
+        "commonName": "*.sgbroker.app"
+      },
+      "alert": false,
+      "attempts": 1,
       "error": null
     },
     {
-      "host": "api.singerthai.co.th",
-      "valid": null,
-      "valid_from": null,
-      "valid_to": null,
-      "days_left": null,
-      "issuer": null,
-      "error": "timed out"
-    },
-    {
-      "host": "bl.singerthai.co.th",
-      "valid": null,
-      "valid_from": null,
-      "valid_to": null,
-      "days_left": null,
-      "issuer": null,
-      "error": "timed out"
-    },
-    {
       "host": "edocument.singerthai.co.th",
+      "port": 443,
+      "scope": "public",
+      "status": "ok",
       "valid": true,
+      "cert_verified": true,
       "valid_from": "2026-07-01T00:00:00+00:00",
       "valid_to": "2027-01-15T23:59:59+00:00",
-      "days_left": 131,
+      "days_left": 130,
       "issuer": {
         "countryName": "GB",
         "organizationName": "Sectigo Limited",
         "commonName": "Sectigo Public Server Authentication CA DV R36"
       },
+      "subject": {
+        "commonName": "*.singerthai.co.th"
+      },
+      "alert": false,
+      "attempts": 1,
       "error": null
-    },
-    {
-      "host": "etax.singerthai.co.th",
-      "valid": null,
-      "valid_from": null,
-      "valid_to": null,
-      "days_left": null,
-      "issuer": null,
-      "error": "timed out"
-    },
-    {
-      "host": "inv.singerthai.co.th",
-      "valid": null,
-      "valid_from": null,
-      "valid_to": null,
-      "days_left": null,
-      "issuer": null,
-      "error": "[Errno -2] Name or service not known"
-    },
-    {
-      "host": "konga.singerthai.co.th",
-      "valid": null,
-      "valid_from": null,
-      "valid_to": null,
-      "days_left": null,
-      "issuer": null,
-      "error": "timed out"
-    },
-    {
-      "host": "payment.singerthai.co.th",
-      "valid": null,
-      "valid_from": null,
-      "valid_to": null,
-      "days_left": null,
-      "issuer": null,
-      "error": "timed out"
-    },
-    {
-      "host": "sg-crm.singerthai.co.th",
-      "valid": null,
-      "valid_from": null,
-      "valid_to": null,
-      "days_left": null,
-      "issuer": null,
-      "error": "[Errno -2] Name or service not known"
     }
   ]
 }

@@ -1,0 +1,23 @@
+# domain ที่เปิดเฉพาะใน network องค์กร — GitHub Actions runner (cloud) เช็กไม่ได้
+#
+# ต้องรันด้วย  python check_ssl.py --scope internal --output result-internal.json
+# จาก self-hosted runner หรือเครื่องที่อยู่ใน network องค์กร
+# ถ้าเอา domain พวกนี้ไปไว้ใน domains.txt จะได้ status unreachable ทุกวัน
+#
+# 1 บรรทัด = 1 domain (ไม่ต้องมี https:// หรือ / ปิดท้าย, ใส่ host:port ได้ถ้าไม่ใช่ 443)
+
+# .APP
+sgf-ez.singerthai.app
+bl.singerthai.app
+e-tax.singerthai.app
+edocument.singerthai.app
+payment.singerthai.app
+
+# Singerthai.co.th
+api.singerthai.co.th
+bl.singerthai.co.th
+etax.singerthai.co.th
+inv.singerthai.co.th
+konga.singerthai.co.th
+payment.singerthai.co.th
+sg-crm.singerthai.co.th

@@ -10,6 +10,11 @@ on:
 permissions:
   contents: write
 
+# กันสองรอบชนกันตอน push (เช่นกด Run workflow ระหว่างที่ schedule กำลังรัน)
+concurrency:
+  group: ssl-check
+  cancel-in-progress: false
+
 jobs:
   check-ssl:
     runs-on: ubuntu-latest
@@ -21,14 +26,28 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+          cache: pip
 
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # runner ของ GitHub อยู่บน cloud จึงเช็กได้แค่ scope public
+      # ส่วน domain ใน domains-internal.txt ต้องรันจากเครื่องใน network องค์กร
       - name: Run SSL check script
-        run: python check_ssl.py
+        run: python check_ssl.py --scope public
 
       - name: Commit and push result.json
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add result.json
-          git diff --quiet --cached || git commit -m "chore: update SSL check result [skip ci]"
-          git push
+          git diff --quiet --cached && echo "ไม่มีอะไรเปลี่ยน" && exit 0
+          git commit -m "chore: update SSL check result [skip ci]"
+          # rebase ก่อน push กันกรณีมีคน commit เข้า main ระหว่าง workflow รัน
+          for attempt in 1 2 3; do
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && \
+              git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            echo "push ครั้งที่ ${attempt} ไม่สำเร็จ — ลองใหม่"
+            sleep 5
+          done
+          exit 1

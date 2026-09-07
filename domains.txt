@@ -1,10 +1,10 @@
-# รายชื่อ domain ที่ต้องการ monitor SSL certificate
-# 1 บรรทัด = 1 domain (ไม่ต้องมี https:// หรือ / ปิดท้าย)
+# domain ที่เข้าถึงได้จาก internet — GitHub Actions runner เช็กได้
+# 1 บรรทัด = 1 domain (ไม่ต้องมี https:// หรือ / ปิดท้าย, ใส่ host:port ได้ถ้าไม่ใช่ 443)
 # บรรทัดที่ขึ้นต้นด้วย # คือ comment จะถูกข้าม
+
 # .APP
 app-konga.singerthai.app
 app-api.singerthai.app
-app-konga.singerthai.app
 collection.singerthai.app
 etax.singerthai.app
 media-service.singerthai.app
@@ -43,11 +43,6 @@ stl-service.singerthai.app
 stl-srp-neo.singerthai.app
 subscribe-plus-front.singerthai.app
 telesale.singerthai.app
-sgf-ez.singerthai.app
-bl.singerthai.app
-e-tax.singerthai.app
-edocument.singerthai.app
-payment.singerthai.app
 
 # SGB .app
 ar.sgbroker.app
@@ -57,11 +52,4 @@ easy.sgbroker.app
 odoo.sgbroker.app
 
 # Singerthai.co.th
-api.singerthai.co.th
-bl.singerthai.co.th
 edocument.singerthai.co.th
-etax.singerthai.co.th
-inv.singerthai.co.th
-konga.singerthai.co.th
-payment.singerthai.co.th
-sg-crm.singerthai.co.th
