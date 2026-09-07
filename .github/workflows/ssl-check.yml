@@ -4,6 +4,17 @@ on:
   schedule:
     # รันทุกวันเวลา 08:00 น. เวลาไทย (UTC+7) = 01:00 UTC
     - cron: "0 1 * * *"
+  # แก้รายชื่อ domain แล้วให้ result.json อัปเดตทันที ไม่ต้องรอรอบ schedule
+  # (ถ้าไม่มี trigger นี้ result.json จะยังมี domain ที่ลบออกไปแล้ว จนถึงรอบถัดไป
+  #  ทำให้ n8n อ่านของเก่าไปแจ้งเตือน domain ที่เลิก monitor แล้ว)
+  push:
+    branches:
+      - main
+    paths:
+      - domains.txt
+      - domains-internal.txt
+      - check_ssl.py
+      - .github/workflows/ssl-check.yml
   # อนุญาตให้กดรันด้วยตัวเองได้จากแท็บ Actions ของ GitHub (เพื่อทดสอบ)
   workflow_dispatch: {}
 
