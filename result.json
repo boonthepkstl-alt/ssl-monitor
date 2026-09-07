@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T02:55:11.890253+00:00",
+  "generated_at": "2026-09-07T05:53:03.428690+00:00",
   "scopes": [
     "public"
   ],
@@ -356,7 +356,7 @@
       },
       "alert": true,
       "attempts": 1,
-      "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1082)"
+      "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)"
     },
     {
       "host": "singerthai.app",
@@ -675,7 +675,7 @@
       "cert_verified": true,
       "valid_from": "2026-08-20T04:35:55+00:00",
       "valid_to": "2026-11-18T05:35:50+00:00",
-      "days_left": 72,
+      "days_left": 71,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -785,7 +785,7 @@
       "cert_verified": true,
       "valid_from": "2026-07-13T02:13:01+00:00",
       "valid_to": "2026-10-11T03:12:51+00:00",
-      "days_left": 34,
+      "days_left": 33,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
