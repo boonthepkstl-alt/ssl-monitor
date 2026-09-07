@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T05:53:03.428690+00:00",
+  "generated_at": "2026-09-07T07:34:12.048769+00:00",
   "scopes": [
     "public"
   ],
@@ -8,24 +8,14 @@
     "urgent_days": 7
   },
   "summary": {
-    "total": 46,
-    "alert_count": 1,
+    "total": 45,
+    "alert_count": 0,
     "infra_issue_count": 0,
     "by_status": {
-      "ok": 45,
-      "expired": 1
+      "ok": 45
     }
   },
-  "alerts": [
-    {
-      "host": "singercrmline-migrate-service.singerthai.app",
-      "status": "expired",
-      "severity": "expired",
-      "days_left": -5,
-      "valid_to": "2026-09-02T23:59:59+00:00",
-      "scope": "public"
-    }
-  ],
+  "alerts": [],
   "infra_issues": [],
   "results": [
     {
@@ -335,28 +325,6 @@
       "alert": false,
       "attempts": 1,
       "error": null
-    },
-    {
-      "host": "singercrmline-migrate-service.singerthai.app",
-      "port": 443,
-      "scope": "public",
-      "status": "expired",
-      "valid": false,
-      "cert_verified": false,
-      "valid_from": "2025-08-26T00:00:00+00:00",
-      "valid_to": "2026-09-02T23:59:59+00:00",
-      "days_left": -5,
-      "issuer": {
-        "countryName": "GB",
-        "organizationName": "Sectigo Limited",
-        "commonName": "Sectigo Public Server Authentication CA DV R36"
-      },
-      "subject": {
-        "commonName": "*.singerthai.app"
-      },
-      "alert": true,
-      "attempts": 1,
-      "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)"
     },
     {
       "host": "singerthai.app",
@@ -873,7 +841,7 @@
       "cert_verified": true,
       "valid_from": "2026-07-11T04:58:21+00:00",
       "valid_to": "2026-10-09T05:58:15+00:00",
-      "days_left": 32,
+      "days_left": 31,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
