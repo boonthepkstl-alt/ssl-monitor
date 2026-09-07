@@ -17,7 +17,6 @@ singercrm-back.singerthai.app
 singercrm-front.singerthai.app
 singercrmline-back.singerthai.app
 singercrmline-front.singerthai.app
-singercrmline-migrate-service.singerthai.app
 singerthai.app
 singer-tracking-api.singerthai.app
 singer-tracking-backoffice-api.singerthai.app
