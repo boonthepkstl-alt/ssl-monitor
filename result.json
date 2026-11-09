@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T07:04:07.387431+00:00",
+  "generated_at": "2026-11-09T07:48:12.595999+00:00",
   "scopes": [
     "public"
   ],
@@ -9,23 +9,13 @@
   },
   "summary": {
     "total": 45,
-    "alert_count": 1,
+    "alert_count": 0,
     "infra_issue_count": 0,
     "by_status": {
-      "ok": 44,
-      "expiring_soon": 1
+      "ok": 45
     }
   },
-  "alerts": [
-    {
-      "host": "stl-product-portal.singerthai.app",
-      "status": "expiring_soon",
-      "severity": "warning",
-      "days_left": 30,
-      "valid_to": "2026-12-09T05:05:58+00:00",
-      "scope": "public"
-    }
-  ],
+  "alerts": [],
   "infra_issues": [],
   "results": [
     {
@@ -37,7 +27,7 @@
       "cert_verified": true,
       "valid_from": "2026-08-11T02:25:17+00:00",
       "valid_to": "2027-02-25T02:30:01+00:00",
-      "days_left": 108,
+      "days_left": 107,
       "issuer": {
         "countryName": "US",
         "organizationName": "SSL Corporation",
@@ -59,7 +49,7 @@
       "cert_verified": true,
       "valid_from": "2026-08-11T02:25:17+00:00",
       "valid_to": "2027-02-25T02:30:01+00:00",
-      "days_left": 108,
+      "days_left": 107,
       "issuer": {
         "countryName": "US",
         "organizationName": "SSL Corporation",
@@ -81,7 +71,7 @@
       "cert_verified": true,
       "valid_from": "2026-08-11T02:25:17+00:00",
       "valid_to": "2027-02-25T02:30:01+00:00",
-      "days_left": 108,
+      "days_left": 107,
       "issuer": {
         "countryName": "US",
         "organizationName": "SSL Corporation",
@@ -103,7 +93,7 @@
       "cert_verified": true,
       "valid_from": "2026-09-24T23:18:25+00:00",
       "valid_to": "2026-12-24T00:16:01+00:00",
-      "days_left": 45,
+      "days_left": 44,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -125,7 +115,7 @@
       "cert_verified": true,
       "valid_from": "2026-09-24T23:18:25+00:00",
       "valid_to": "2026-12-24T00:16:01+00:00",
-      "days_left": 45,
+      "days_left": 44,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -147,7 +137,7 @@
       "cert_verified": true,
       "valid_from": "2026-09-24T23:18:25+00:00",
       "valid_to": "2026-12-24T00:16:01+00:00",
-      "days_left": 45,
+      "days_left": 44,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -169,7 +159,7 @@
       "cert_verified": true,
       "valid_from": "2026-09-24T23:18:25+00:00",
       "valid_to": "2026-12-24T00:16:01+00:00",
-      "days_left": 45,
+      "days_left": 44,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -191,7 +181,7 @@
       "cert_verified": true,
       "valid_from": "2026-08-11T02:25:17+00:00",
       "valid_to": "2027-02-25T02:30:01+00:00",
-      "days_left": 108,
+      "days_left": 107,
       "issuer": {
         "countryName": "US",
         "organizationName": "SSL Corporation",
@@ -213,7 +203,7 @@
       "cert_verified": true,
       "valid_from": "2026-09-24T23:18:25+00:00",
       "valid_to": "2026-12-24T00:16:01+00:00",
-      "days_left": 45,
+      "days_left": 44,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -235,7 +225,7 @@
       "cert_verified": true,
       "valid_from": "2026-09-24T23:18:25+00:00",
       "valid_to": "2026-12-24T00:16:01+00:00",
-      "days_left": 45,
+      "days_left": 44,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -257,7 +247,7 @@
       "cert_verified": true,
       "valid_from": "2026-08-11T02:25:17+00:00",
       "valid_to": "2027-02-25T02:30:01+00:00",
-      "days_left": 108,
+      "days_left": 107,
       "issuer": {
         "countryName": "US",
         "organizationName": "SSL Corporation",
@@ -279,7 +269,7 @@
       "cert_verified": true,
       "valid_from": "2026-08-11T02:25:17+00:00",
       "valid_to": "2027-02-25T02:30:01+00:00",
-      "days_left": 108,
+      "days_left": 107,
       "issuer": {
         "countryName": "US",
         "organizationName": "SSL Corporation",
@@ -301,7 +291,7 @@
       "cert_verified": true,
       "valid_from": "2026-08-11T02:25:17+00:00",
       "valid_to": "2027-02-25T02:30:01+00:00",
-      "days_left": 108,
+      "days_left": 107,
       "issuer": {
         "countryName": "US",
         "organizationName": "SSL Corporation",
@@ -323,7 +313,7 @@
       "cert_verified": true,
       "valid_from": "2026-08-11T02:25:17+00:00",
       "valid_to": "2027-02-25T02:30:01+00:00",
-      "days_left": 108,
+      "days_left": 107,
       "issuer": {
         "countryName": "US",
         "organizationName": "SSL Corporation",
@@ -345,7 +335,7 @@
       "cert_verified": true,
       "valid_from": "2026-11-05T08:29:50+00:00",
       "valid_to": "2027-02-03T09:29:47+00:00",
-      "days_left": 87,
+      "days_left": 86,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -367,7 +357,7 @@
       "cert_verified": true,
       "valid_from": "2026-08-11T02:25:17+00:00",
       "valid_to": "2027-02-25T02:30:01+00:00",
-      "days_left": 108,
+      "days_left": 107,
       "issuer": {
         "countryName": "US",
         "organizationName": "SSL Corporation",
@@ -389,7 +379,7 @@
       "cert_verified": true,
       "valid_from": "2026-08-11T02:25:17+00:00",
       "valid_to": "2027-02-25T02:30:01+00:00",
-      "days_left": 108,
+      "days_left": 107,
       "issuer": {
         "countryName": "US",
         "organizationName": "SSL Corporation",
@@ -411,7 +401,7 @@
       "cert_verified": true,
       "valid_from": "2026-08-11T02:25:17+00:00",
       "valid_to": "2027-02-25T02:30:01+00:00",
-      "days_left": 108,
+      "days_left": 107,
       "issuer": {
         "countryName": "US",
         "organizationName": "SSL Corporation",
@@ -433,7 +423,7 @@
       "cert_verified": true,
       "valid_from": "2026-09-24T23:18:25+00:00",
       "valid_to": "2026-12-24T00:16:01+00:00",
-      "days_left": 45,
+      "days_left": 44,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -455,7 +445,7 @@
       "cert_verified": true,
       "valid_from": "2026-09-24T23:18:25+00:00",
       "valid_to": "2026-12-24T00:16:01+00:00",
-      "days_left": 45,
+      "days_left": 44,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -477,7 +467,7 @@
       "cert_verified": true,
       "valid_from": "2026-09-24T23:18:25+00:00",
       "valid_to": "2026-12-24T00:16:01+00:00",
-      "days_left": 45,
+      "days_left": 44,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -499,7 +489,7 @@
       "cert_verified": true,
       "valid_from": "2026-10-26T07:03:20+00:00",
       "valid_to": "2027-01-24T08:03:18+00:00",
-      "days_left": 77,
+      "days_left": 76,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -521,7 +511,7 @@
       "cert_verified": true,
       "valid_from": "2026-10-26T11:14:24+00:00",
       "valid_to": "2027-01-24T12:14:22+00:00",
-      "days_left": 77,
+      "days_left": 76,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -543,7 +533,7 @@
       "cert_verified": true,
       "valid_from": "2026-09-26T21:22:20+00:00",
       "valid_to": "2026-12-25T22:21:06+00:00",
-      "days_left": 47,
+      "days_left": 46,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -565,7 +555,7 @@
       "cert_verified": true,
       "valid_from": "2026-09-26T13:58:52+00:00",
       "valid_to": "2026-12-25T14:58:48+00:00",
-      "days_left": 47,
+      "days_left": 46,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -587,7 +577,7 @@
       "cert_verified": true,
       "valid_from": "2026-09-12T00:52:33+00:00",
       "valid_to": "2026-12-11T01:52:30+00:00",
-      "days_left": 32,
+      "days_left": 31,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -609,7 +599,7 @@
       "cert_verified": true,
       "valid_from": "2026-11-03T12:28:39+00:00",
       "valid_to": "2027-02-01T13:28:29+00:00",
-      "days_left": 85,
+      "days_left": 84,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -631,7 +621,7 @@
       "cert_verified": true,
       "valid_from": "2026-09-24T23:18:25+00:00",
       "valid_to": "2026-12-24T00:16:01+00:00",
-      "days_left": 45,
+      "days_left": 44,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -653,7 +643,7 @@
       "cert_verified": true,
       "valid_from": "2026-10-18T10:10:08+00:00",
       "valid_to": "2027-01-16T11:10:06+00:00",
-      "days_left": 69,
+      "days_left": 68,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -675,7 +665,7 @@
       "cert_verified": true,
       "valid_from": "2026-10-02T14:24:38+00:00",
       "valid_to": "2026-12-31T15:24:30+00:00",
-      "days_left": 53,
+      "days_left": 52,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -697,7 +687,7 @@
       "cert_verified": true,
       "valid_from": "2026-10-11T11:36:11+00:00",
       "valid_to": "2027-01-09T12:36:08+00:00",
-      "days_left": 62,
+      "days_left": 61,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -719,7 +709,7 @@
       "cert_verified": true,
       "valid_from": "2026-09-17T05:12:34+00:00",
       "valid_to": "2026-12-16T06:12:31+00:00",
-      "days_left": 37,
+      "days_left": 36,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -741,7 +731,7 @@
       "cert_verified": true,
       "valid_from": "2026-09-25T19:15:00+00:00",
       "valid_to": "2026-12-24T20:14:56+00:00",
-      "days_left": 46,
+      "days_left": 45,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -758,12 +748,12 @@
       "host": "stl-product-portal.singerthai.app",
       "port": 443,
       "scope": "public",
-      "status": "expiring_soon",
+      "status": "ok",
       "valid": true,
       "cert_verified": true,
-      "valid_from": "2026-09-10T04:06:03+00:00",
-      "valid_to": "2026-12-09T05:05:58+00:00",
-      "days_left": 30,
+      "valid_from": "2026-11-08T07:04:09+00:00",
+      "valid_to": "2027-02-06T08:03:58+00:00",
+      "days_left": 89,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -772,7 +762,7 @@
       "subject": {
         "commonName": "stl-product-portal.singerthai.app"
       },
-      "alert": true,
+      "alert": false,
       "attempts": 1,
       "error": null
     },
@@ -785,7 +775,7 @@
       "cert_verified": true,
       "valid_from": "2026-10-04T23:52:24+00:00",
       "valid_to": "2027-01-03T00:52:20+00:00",
-      "days_left": 55,
+      "days_left": 54,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -807,7 +797,7 @@
       "cert_verified": true,
       "valid_from": "2026-10-02T12:34:25+00:00",
       "valid_to": "2026-12-31T13:34:19+00:00",
-      "days_left": 53,
+      "days_left": 52,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -829,7 +819,7 @@
       "cert_verified": true,
       "valid_from": "2026-11-04T18:35:16+00:00",
       "valid_to": "2027-02-02T19:35:11+00:00",
-      "days_left": 86,
+      "days_left": 85,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -851,7 +841,7 @@
       "cert_verified": true,
       "valid_from": "2026-11-06T06:39:01+00:00",
       "valid_to": "2027-02-04T07:38:55+00:00",
-      "days_left": 88,
+      "days_left": 86,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -873,7 +863,7 @@
       "cert_verified": true,
       "valid_from": "2026-10-01T08:39:57+00:00",
       "valid_to": "2026-12-30T09:39:51+00:00",
-      "days_left": 52,
+      "days_left": 51,
       "issuer": {
         "countryName": "US",
         "organizationName": "Google Trust Services",
@@ -895,7 +885,7 @@
       "cert_verified": true,
       "valid_from": "2026-10-19T00:00:00+00:00",
       "valid_to": "2027-05-04T23:59:59+00:00",
-      "days_left": 177,
+      "days_left": 176,
       "issuer": {
         "countryName": "US",
         "organizationName": "Amazon",
@@ -917,7 +907,7 @@
       "cert_verified": true,
       "valid_from": "2026-10-19T00:00:00+00:00",
       "valid_to": "2027-05-04T23:59:59+00:00",
-      "days_left": 177,
+      "days_left": 176,
       "issuer": {
         "countryName": "US",
         "organizationName": "Amazon",
@@ -939,7 +929,7 @@
       "cert_verified": true,
       "valid_from": "2026-10-19T00:00:00+00:00",
       "valid_to": "2027-05-04T23:59:59+00:00",
-      "days_left": 177,
+      "days_left": 176,
       "issuer": {
         "countryName": "US",
         "organizationName": "Amazon",
@@ -961,7 +951,7 @@
       "cert_verified": true,
       "valid_from": "2026-10-19T00:00:00+00:00",
       "valid_to": "2027-05-04T23:59:59+00:00",
-      "days_left": 177,
+      "days_left": 176,
       "issuer": {
         "countryName": "US",
         "organizationName": "Amazon",
@@ -983,7 +973,7 @@
       "cert_verified": true,
       "valid_from": "2026-10-19T00:00:00+00:00",
       "valid_to": "2027-05-04T23:59:59+00:00",
-      "days_left": 177,
+      "days_left": 176,
       "issuer": {
         "countryName": "US",
         "organizationName": "Amazon",
@@ -1005,7 +995,7 @@
       "cert_verified": true,
       "valid_from": "2026-07-01T00:00:00+00:00",
       "valid_to": "2027-01-15T23:59:59+00:00",
-      "days_left": 68,
+      "days_left": 67,
       "issuer": {
         "countryName": "GB",
         "organizationName": "Sectigo Limited",
